@@ -9,15 +9,16 @@
 </head>
  <body>
     <header>
-        <h2 class="logo">The Eyes Of Horus</h2>
+        <a href="#landing"><h2 class="logo">The Eyes Of Horus</h2></a>
         <nav class="navigation">
             <ul class="navlinks">
-                <a href="#landing"><li>Home</li></a>
-                <a href="#artifacts"><li>Artifacts</li></a>
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#artifact">Artifacts</a></li>
+                <li><a href="#message">Our Message</a></li>
             </ul>
         </nav>
     </header>
-    <!-- The landing of the website ------------------------------------------->
+    <!-- The landing page of the website ------------------------------------------->
     <section class="landing" id="landing">
         <div class="words">
             <h3 class="subtitle"> About The Eyes of Horus</h3>
@@ -33,7 +34,7 @@
         <section class="info">
             <section class="explanation">
                 <p>The Rosetta Stone was created in 196 BCE during the reign of Ptolemy V. It contains a decree issued by priests to honor the young king, written in Greek, Demotic, and hieroglyphs so it could be understood by different groups. It was discovered by French soldiers in Egypt in 1799. The reason the “Rosetta Stone” is incredibly important
-                because it allowed scholars to finally decipher ancient Egyptian hieroglyphs, a language that had been lost for centuries. After Napoleon’s defeat, the British took the stone in 1801, and it has been in the British Museum since 1802. Its discovery and translation opened the door to understanding ancient Egypt's history, culture, and written language. Learn more and see more <a href="https://en.wikipedia.org/wiki/Rosetta_Stone" title="Learn more about the Rosetta Stone">here</a></p>
+                because it allowed scholars to finally decipher ancient Egyptian hieroglyphs, a language that had been lost for centuries. After Napoleon’s defeat, the British took the stone in 1801, and it has been in the British Museum since 1802. Its discovery and translation opened the door to understanding ancient Egypt's history, culture, and written language. Learn more and see more <a href="https://en.wikipedia.org/wiki/Rosetta_Stone" title="Learn more about the Rosetta Stone" loading="lazy">here</a></p>
             </section>
 
             <section class="image">
@@ -129,24 +130,36 @@
         <h3 class="title">Last but not least: <span>The Sphinx of Tanis</span></h3>
         <section class="info">
             <section class="explanation">
-                <p>The Sphinx of Tanis is a large granite statue with the
-                    head of a Pharaoh and a lion's body, created around 26
-                    BCE. It was made to symbolize the Pharaoh’s power
-                    and divine protection, embodying the fusion of royal
-                    and divine attributes that was central to ancient
-                    Egyptian beliefs.
-                    The sphinx was discovered in Tanis (modern-day San
-                    el-Hagar) in Egypt in 1825 by French Egyptologist
-                    Jean-François Champollion. It was later taken to
-                    France and is now housed in the Louvre Museum in
-                    Paris.
-                    Egypt has requested its return, highlighting its
-                    importance to their cultural heritage, but it remains in
-                    France. Learn more and see more <a href="https://en.wikipedia.org/wiki/Great_Sphinx_of_Tanis" title="Learn more about the Sphinx of Tanis">here</a></p>
+                <p>The Sphinx of Tanis is a large granite statue with the head of a Pharaoh and a lion's body, created around 26 BCE. It was made to symbolize the Pharaoh’s power and divine protection, embodying the fusion of royal and divine attributes that was central to ancient Egyptian beliefs. The sphinx was discovered in Tanis (modern-day San el-Hagar) in Egypt in 1825 by French Egyptologist Jean-François Champollion. It was later taken to France and is now housed in the Louvre Museum in Paris. Egypt has requested its return, highlighting its importance to their cultural heritage, but it remains in France. Learn more and see more <a href="https://en.wikipedia.org/wiki/Great_Sphinx_of_Tanis" title="Learn more about the Sphinx of Tanis">here</a></p>
             </section>
 
             <section class="image">
                 <img class="imgsphinx" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Grand_sphinx_de_Tanis_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_N_23_%3B_A_23_%3B_Salt_3837.jpg/1200px-Grand_sphinx_de_Tanis_-_Mus%C3%A9e_du_Louvre_Antiquit%C3%A9s_%C3%A9gyptiennes_N_23_%3B_A_23_%3B_Salt_3837.jpg">
+            </section>
+        </section>
+    </section>
+
+    <!-- The message section -------------------------------------------------------->
+
+    <section id="message" class="artifact message">
+        <h3 class="title">The message by the “Eye of Horus”</h3>
+        <section class="info">
+            <section class="explanation">
+                <p>In the heart of Egypt lies a rich and profound history, a tapestry woven with the
+                achievements, artistry, and spiritual depth of an ancient civilization that continues to inspire
+                and captivate the world. The magnificent artifacts we’ve discussed—the Rosetta Stone, the
+                Bust of Nefertiti, the Dendera Zodiac, the Luxor Obelisk, the Sarcophagus of Pharaoh Seti I,
+                the Head of Amenhotep III, the Sphinx of Tanis—are not merely relics of the past; they are the
+                soul and identity of Egypt, fragments of a story that has shaped the course of human history.
+                These treasures, though held in far-off lands, belong to the land that gave them life. They are
+                the embodiment of Egypt’s cultural heritage and collective memory, symbols of a civilization
+                that contributed profoundly to our shared history. It is only fitting that these remarkable
+                pieces return to their rightful home, where they can once again be part of the living heritage
+                they represent.
+                We implore those who hold these artifacts to recognize the deep emotional and cultural
+                significance they hold for the Egyptian people. Let us honor the legacy of ancient Egypt by
+                allowing these precious items to return to their homeland, where they can be cherished,
+                studied, and celebrated as they were meant to be.</p>
             </section>
         </section>
     </section>
@@ -160,7 +173,7 @@
         </div>
     </section>
    
-    <a href="#landing" class="back-to-top">↑ Back to Top</a>
+    <a href="#landing" class="back-to-top" id="backToTop">↑ Back to Top</a>
 
     <!-- footer section -------------------------------------------------------->
 
@@ -186,8 +199,6 @@
             </div>
         </section>
     </footer>
-    
-
-
+<script src="script.js"></script>
  </body>
 </html>
